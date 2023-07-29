@@ -40,18 +40,4 @@ public class Manager {
         }
         return result;
     }
-
-    public String[] findLast2() {
-        int resultLength;
-        if (films.length < 7) {
-            resultLength = films.length;
-        } else {
-            resultLength = 7;
-        }
-        String[] result = new String[resultLength];
-        for (int i = 0; i < films.length; i++) {
-            result[i] = films[films.length - 1 - i];
-        }
-        return result;
-    }
 }
