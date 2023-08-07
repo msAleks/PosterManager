@@ -5,7 +5,7 @@ public class Manager {
 
 
     public Manager() {
-        this.limit = 5;
+        this.limit = 10;
     }
 
     public Manager(int limit) {
