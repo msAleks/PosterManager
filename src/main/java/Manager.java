@@ -5,10 +5,11 @@ public class Manager {
 
 
     public Manager() {
-        this.limit = 10;
+        this.limit = 5;
     }
 
     public Manager(int limit) {
+
         this.limit = limit;
     }
 
@@ -23,6 +24,7 @@ public class Manager {
     }
 
     public String[] findAll() {
+
         return films; // возвращаем поле с фильмами
     }
 
